@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E0736ACB267F350000281DDF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736ACA267F350000281DDF /* main.swift */; };
+		E0736AD4267F37AE00281DDF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736AD3267F37AE00281DDF /* Car.swift */; };
+		E0736AD6267F38BB00281DDF /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736AD5267F38BB00281DDF /* Setting.swift */; };
+		E0736AD8267F3CE500281DDF /* SettingsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736AD7267F3CE500281DDF /* SettingsCar.swift */; };
+		E0736ADA267F443B00281DDF /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736AD9267F443B00281DDF /* SportCar.swift */; };
+		E0736ADC267F45E700281DDF /* TrackCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0736ADB267F45E700281DDF /* TrackCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		E0736AC7267F350000281DDF /* 3I_VvedenskiyValerii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3I_VvedenskiyValerii; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0736ACA267F350000281DDF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E0736AD3267F37AE00281DDF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E0736AD5267F38BB00281DDF /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		E0736AD7267F3CE500281DDF /* SettingsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCar.swift; sourceTree = "<group>"; };
+		E0736AD9267F443B00281DDF /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		E0736ADB267F45E700281DDF /* TrackCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		E0736AC9267F350000281DDF /* 3I_VvedenskiyValerii */ = {
 			isa = PBXGroup;
 			children = (
+				E0736AD2267F379600281DDF /* Classes */,
+				E0736AD1267F378700281DDF /* Protocols */,
 				E0736ACA267F350000281DDF /* main.swift */,
 			);
 			path = 3I_VvedenskiyValerii;
+			sourceTree = "<group>";
+		};
+		E0736AD1267F378700281DDF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E0736AD3267F37AE00281DDF /* Car.swift */,
+				E0736AD5267F38BB00281DDF /* Setting.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E0736AD2267F379600281DDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0736AD7267F3CE500281DDF /* SettingsCar.swift */,
+				E0736AD9267F443B00281DDF /* SportCar.swift */,
+				E0736ADB267F45E700281DDF /* TrackCar.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0736AD4267F37AE00281DDF /* Car.swift in Sources */,
+				E0736ADA267F443B00281DDF /* SportCar.swift in Sources */,
+				E0736ADC267F45E700281DDF /* TrackCar.swift in Sources */,
 				E0736ACB267F350000281DDF /* main.swift in Sources */,
+				E0736AD6267F38BB00281DDF /* Setting.swift in Sources */,
+				E0736AD8267F3CE500281DDF /* SettingsCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
